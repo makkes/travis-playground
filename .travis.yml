@@ -1,0 +1,5 @@
+language: generic
+script:
+    - docker volume ls
+    - docker volume create
+    - docker volume ls
